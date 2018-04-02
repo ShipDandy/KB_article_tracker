@@ -1,0 +1,28 @@
+KB Article Report Compiler:
+
+ZD API Docs: https://developer.zendesk.com/rest_api/docs/help_center/articles#json-format
+
+Reqs:
+
+master article spreadsheet, columns containing:
+
+article url (html_url)
+title
+id
+locale (regionality)
+author id
+label names (kind of tags for search)
+draft
+promoted (popular articles)
+position
+section id
+created at
+edited at
+updated at
+
+also have the ability to filter results by section (perhaps include use of labels)
+
+
+tertiary program functionality:
+
+grab body from each article and searches for img tag, then exports list of article id and tags included as well as last updated date
